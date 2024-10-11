@@ -17,15 +17,17 @@ FORMAT = "MOBI" # MOBI/EPUB
 
 ## 使用方法
 
-下载一个系列
+### 下载一个系列
+
+直接将url作为第一个参数传入，比如
 
 ```
 python3 main.py "https://mobinovels.com/mushoku-tensei/"
 ```
 
-下载多个系列
+### 下载多个系列
 
-将多个链接丢进 `lists.txt`, 一行一个,比如
+在项目目录下新建一个 `lists.txt` 然后将多个链接丢进去, 一行一个, 比如
 
 ```
 https://mobinovels.com/mushoku-tensei/
